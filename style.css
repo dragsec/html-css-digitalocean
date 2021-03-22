@@ -1,0 +1,51 @@
+.logo{
+    height: 35px;
+    margin-top: 10px;
+}
+
+/* buttons */
+#btnsign{
+    color: #265DF8;
+    border-color: #265DF8;
+    padding: 5px;
+    vertical-align: middle;
+    height: 100%;
+}
+
+/* fonts */
+.fontheader{
+    font-size: 14px;
+    font-weight: 600;
+}
+#fontblack{
+    color: black;
+}
+
+
+.section1{ /* creabanner */
+    background-image: url(img/bg-banner-home.jpg);
+    height: 400px;
+    background-size: 150%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.help{
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 20%;
+
+    height: 20px;
+    width: 50px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
