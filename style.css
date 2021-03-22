@@ -67,11 +67,14 @@
 /* sezioni */
 
 /* header */
-@media (max-width: 992px){
-    .hideX{
-        visibility: hidden;
-    }
-}  
+header{
+    font-size: 14px;
+}
+#temppadding{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 
 /* sezione1 */
 
@@ -89,7 +92,7 @@
     border-radius: 5px;
     padding: 20px 0;
 }
-.creaaccount > p, .section2 > p, .section3 > p{
+.creaaccount > p, .section2 > p, .section3 > p, .section7 > p{
     text-align: center;
 }
 .google{
@@ -120,22 +123,50 @@
 
 
 
+/* sezione 7 */
+.section7{
+    background-color: lightgray;
+    padding: 50px;
+}
+.section7 > div{
+    text-align: center;
+    margin-top: 40px;
+}
+.magmin{
+    font-size: 40px;
+    font-weight: 900;
+    vertical-align: middle;
+    line-height: 250px;
+}
+.slidebox{
+    background-color: white;
+    text-align: center;
+    padding:  30px 10px;
+}
+.slidebox > img{
+    margin-bottom: 20px;
+}
+.balls1, .balls2{
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+    border: 1px solid #265DF8;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+}
+.balls1{
+    background-color: #265DF8;
+}
+
+
+
 /* last section */
 .lastsection{
     background-color: #191FA8;
     text-align: center;
     padding: 50px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* help */
 .help{
