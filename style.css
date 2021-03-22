@@ -16,6 +16,11 @@
     border-color: #5C95F9;
     color: white;
 }
+#btnwhite{
+    color: #265DF8;
+    background-color: white;
+    border-color: white;
+}
 
 /* fonts */
 *{
@@ -35,8 +40,20 @@
     font-size: 16px;
     color: lightgray;
 }
+.mediumgray2{
+    font-size: 16px;
+    color: gray;
+}
+.mediumwhite{
+    color: white;
+    font-size: 35px;
+}
 .bigblack{
     font-size: 25px;
+    color: black;
+}
+.biggerblack{
+    font-size: 35px;
     color: black;
 }
 .bigblue{
@@ -72,7 +89,7 @@
     border-radius: 5px;
     padding: 20px 0;
 }
-.creaaccount > p, .section2 > p{
+.creaaccount > p, .section2 > p, .section3 > p{
     text-align: center;
 }
 .google{
@@ -95,6 +112,26 @@
     display: flex;
     align-items: center;
 }
+
+/* section 3 */
+.section3{
+    padding: 75px 0;
+}
+
+
+
+/* last section */
+.lastsection{
+    background-color: #191FA8;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+
 
 
 
