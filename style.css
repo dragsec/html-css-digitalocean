@@ -43,7 +43,9 @@
     font-size: 30px;
     color: #265DF8;
 }
-
+.lilblue{
+    color: #265DF8;
+}
 
 /* sezioni */
 
@@ -54,18 +56,23 @@
     }
 }  
 
+/* sezione1 */
 
 .section1{ /* creabanner */
     background-image: url(img/bg-banner-home.jpg);
     background-size: 150%;
     padding: 50px;
 }
+.inputline{
+    width: fit-content;
+    margin-bottom: 5px;
+}
 .creaaccount{
     background-color: white;
     border-radius: 5px;
     padding: 20px 0;
 }
-.creaaccount > p{
+.creaaccount > p, .section2 > p{
     text-align: center;
 }
 .google{
@@ -73,7 +80,17 @@
     margin-right: 30px;
 }
 
-
+/* section 2 */
+.section2{
+    background-color: lightgray;
+    padding: 50px;
+}
+.graybg{
+    background-color: lightgray;
+}
+.x > div > img{
+    width: 100%;
+}
 
 
 
