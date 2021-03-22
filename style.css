@@ -88,11 +88,13 @@
 .graybg{
     background-color: lightgray;
 }
-.x > div > img{
+.verticalcenter > div > img{
     width: 100%;
 }
-
-
+.verticalcenter{
+    display: flex;
+    align-items: center;
+}
 
 
 
