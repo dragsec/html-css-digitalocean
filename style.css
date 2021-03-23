@@ -128,10 +128,19 @@ header{
     display: flex;
     align-items: center;
 }
+#graygray{
+background-color: lightgray;
+}
 
 /* section 3 */
 .section3{
     padding: 75px 0;
+}
+.leftborder{
+    border-left: 1px solid gray;
+}
+.section3 > div > div{
+    margin: 25px 0;
 }
 
 /* section 5 */
