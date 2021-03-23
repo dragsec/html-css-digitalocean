@@ -136,7 +136,7 @@ header{
     background-color: lightgray;
     padding: 50px;
 }
-.section7 > div, .section4 > div, .section4 > p {
+.section7 > div, .section4 > div, .section4 > p , .section5 > p{
     text-align: center;
     margin-top: 40px;
 }
