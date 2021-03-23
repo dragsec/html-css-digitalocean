@@ -40,6 +40,11 @@
     font-size: 14px;
     color: gray;
 }
+.lilblack{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
 .mediumgray{
     font-size: 16px;
     color: lightgray;
@@ -129,6 +134,13 @@ header{
     padding: 75px 0;
 }
 
+/* section 5 */
+.section5{
+    padding-bottom: 50px;
+}
+.section5 > .container{
+    text-align: center;
+}
 
 
 /* sezione 7 section 4 */
