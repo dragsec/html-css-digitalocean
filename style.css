@@ -10,11 +10,16 @@
     padding: 5px;
     vertical-align: middle;
     height: 100%;
+    margin: 10px 0;
 }
 #btnwater{
     background-color: #5C95F9;
     border-color: #5C95F9;
     color: white;
+    width: 100%;
+}
+#btn100width{
+    width: 100%;
 }
 #btnwhite{
     color: #265DF8;
@@ -115,7 +120,7 @@ header{
 
 /* section 2 */
 .section2{
-    background-color: lightgray;
+    background-color: #F3F5F9;
     padding: 50px;
 }
 .graybg{
@@ -123,13 +128,18 @@ header{
 }
 .verticalcenter > .row > div > img{
     width: 100%;
+    max-width: 100px;
 }
-.verticalcenter2{
-    display: flex;
-    align-items: center;
+
+.verticalcenter > .row >  div {
+    height: 100px;
 }
-#graygray{
-background-color: lightgray;
+
+@media(min-width: 768px){
+    .verticalcenter > .row > div > img{
+        height: 100px;
+    }
+
 }
 
 /* section 3 */
